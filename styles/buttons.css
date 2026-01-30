@@ -1,1 +1,18 @@
+.calc__digit, .calc__division, .calc__multiply, .calc__minus, .calc__decimal, .calc__addition, .calc__equal {
+    padding: 1.5rem;
+    font-size: 2rem;
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 2rem;
+    background-color: #EAFAEA;
+    color: #000;
+    font-weight: 700;
+}
 
+.calc__division, .calc__multiply, .calc__minus, .calc__decimal, .calc__addition {
+    background-color: #9FE99F;
+}
+
+.calc__equal {
+    background-color: #2DC42E;
+}
