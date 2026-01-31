@@ -1,8 +1,8 @@
 .calc__clear, .calc__decimal, .calc__division, .calc__digit, .calc__multiply, .calc__minus, .calc__addition, .calc__equal {
-    padding: 1.5rem;
+    padding: 1.3rem;
     font-size: 2rem;
     border: 1px solid #000;
-    border-radius: 2rem;
+    border-radius: 10rem;
     background-color: #EAFAEA;
     color: #000;
     font-weight: 700;
@@ -10,7 +10,8 @@
     height: 100%;
 }
 
-.calc__clear, .calc__decimal, .calc__division, .calc__digit, .calc__multiply, .calc__minus, .calc__addition, .calc__equal:hover {
+.calc__clear:hover, .calc__decimal:hover, .calc__division:hover, .calc__digit:hover, 
+.calc__multiply:hover, .calc__minus:hover, .calc__addition:hover, .calc__equal:hover {
     cursor: pointer;
 }
 
