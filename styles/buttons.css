@@ -1,12 +1,22 @@
-.calc__digit, .calc__division, .calc__multiply, .calc__minus, .calc__decimal, .calc__addition, .calc__equal {
+.calc__clear, .calc__decimal, .calc__division, .calc__digit, .calc__multiply, .calc__minus, .calc__addition, .calc__equal {
     padding: 1.5rem;
     font-size: 2rem;
-    width: 100%;
     border: 1px solid #000;
     border-radius: 2rem;
     background-color: #EAFAEA;
     color: #000;
     font-weight: 700;
+    width: 100%;
+    height: 100%;
+}
+
+.calc__clear, .calc__decimal, .calc__division, .calc__digit, .calc__multiply, .calc__minus, .calc__addition, .calc__equal:hover {
+    cursor: pointer;
+}
+
+.calc__clear {
+    background-color: #C42D2D;
+    padding: 0 5.6rem;
 }
 
 .calc__division, .calc__multiply, .calc__minus, .calc__decimal, .calc__addition {
@@ -15,4 +25,5 @@
 
 .calc__equal {
     background-color: #2DC42E;
+    padding: 0 5.6rem;
 }

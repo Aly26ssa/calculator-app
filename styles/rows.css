@@ -1,12 +1,11 @@
 .calc__rows {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    display: grid;
+    grid-column: auto;
     padding-top: 2.5rem;
     gap: 0.5rem;
 }
 
-.calc__row1, .calc__row2, .calc__row3, .calc__row4 {
+.calc__row1, .calc__row2, .calc__row3, .calc__row4, .calc__row5  {
     display: flex;
     justify-content: center;
     width: 75vw;
