@@ -4,42 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
+    <script type="module" src="main.js" defer></script>
     <title>calculator-app</title>
 </head>
 <body>
     <div class="calc">
         <div class="calc__container">
-            <input class="calc__output" type="text" name="output" >
+            <div class="calc__output" type="text" name="output"></div>
             <div class="calc__rows">
                 <div class="calc__row1">
-                    <button class="calc__digit">7</button>
-                    <button class="calc__digit">8</button>
-                    <button class="calc__digit">9</button>
+                    <button class="calc__clear">C</button>
+                    <button class="calc__decimal">.</button>
                     <button class="calc__division">/</button>
                 </div>
                 <div class="calc__row2">
-                    <button class="calc__digit">4</button>
-                    <button class="calc__digit">5</button>
-                    <button class="calc__digit">6</button>
+                    <button class="calc__digit">7</button>
+                    <button class="calc__digit">8</button>
+                    <button class="calc__digit">9</button>
                     <button class="calc__multiply">x</button>
                 </div>
                 <div class="calc__row3">
-                    <button class="calc__digit">1</button>
-                    <button class="calc__digit">2</button>
-                    <button class="calc__digit">3</button>
+                    <button class="calc__digit">4</button>
+                    <button class="calc__digit">5</button>
+                    <button class="calc__digit">6</button>
                     <button class="calc__minus">-</button>
                 </div>
                 <div class="calc__row4">
-                    <button class="calc__digit">0</button>
-                    <button class="calc__decimal">.</button>
+                    <button class="calc__digit">1</button>
+                    <button class="calc__digit">2</button>
+                    <button class="calc__digit">3</button>
                     <button class="calc__addition">+</button>
-                    <button class="calc__equal">=</button> 
+                </div>
+                <div class="calc__row5">
+                    <button class="calc__digit">0</button>
+                    <button class="calc__digit">00</button>
+                    <button class="calc__equal">=</button>
                 </div>
             </div>
         </div>
     </div>
-
-    <script src="main.js"></script>
 
 </body>
 </html>
