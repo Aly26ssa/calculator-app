@@ -29,6 +29,24 @@ html {
     padding: 3rem;
 }
 
+@media screen and (min-width: 375px) and (max-width: 768px) {
+    .calc__container {
+        max-width: 360px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .calc__container {
+        max-width: 375px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .calc__container {
+        max-width: 375px;
+    }
+}
+
 .calc__output {
     padding: 3.5rem;
     border: none;
@@ -38,4 +56,20 @@ html {
     font-size: 2rem;
 }
 
+@media screen and (min-width: 375px) and (max-width: 768px) {
+    .calc__output {
+        max-width: 300px;
+    }
+}
 
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .calc__output {
+        max-width: 315px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .calc__output {
+        max-width: 315px;
+    }
+}

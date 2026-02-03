@@ -11,3 +11,21 @@
     width: 75vw;
     gap: 0.5rem;
 }
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+    .calc__row1, .calc__row2, .calc__row3, .calc__row4, .calc__row5 {
+        max-width: 300px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .calc__row1, .calc__row2, .calc__row3, .calc__row4, .calc__row5 {
+        max-width: 315px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .calc__row1, .calc__row2, .calc__row3, .calc__row4, .calc__row5 {
+        max-width: 315px;
+    }
+}
