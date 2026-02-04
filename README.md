@@ -3,7 +3,7 @@
 A clean and mobile-first responsive calculator web application built with vanilla JavaScript. Features a modern UI with dynamic character limiting and real-time calculation display.
 
 ## 📸 Screenshot
-
+<img width="471" height="492" alt="image" src="https://github.com/user-attachments/assets/9e924955-e5cc-40b3-9721-96ddd84b58a1" />
 
 ## ✨ Features
 
