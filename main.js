@@ -14,17 +14,34 @@ let previousOperand = '';
 
 const appendDigit = (digit) => {
    if (digit === '.' && result.includes('.')) return;
+
+   let totalLength = operation ? `${previousOperand} ${operation} ${result}${digit}`.length : `${result}${digit}`.length;
+   
+   if (totalLength > 10) {
+    alert('Reached max 10 character limit');
+    return;
+   }
+   
    result += digit;
    updateDisplay();
 }
 
 const updateDisplay = () => {
+   let displayText;
+
    if (operation) {
-      display.textContent = `${previousOperand} ${operation} ${result}`;
+      displayText = `${previousOperand} ${operation} ${result}`;
    } else {
-      display.textContent = result;
+      displayText = result;
    }
-} 
+
+   if (displayText.length > 10) {
+      displayText = displayText.slice(0, 10);
+   }
+
+   display.textContent = displayText;
+}
+
 
 const selectOperator = (operatorValue) => {
    if (result === '') return;
